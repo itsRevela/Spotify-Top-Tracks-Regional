@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Byte-compiled / caching
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+
+# --- Project secrets & local config ---
+.env
+*.env
